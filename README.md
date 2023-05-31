@@ -57,3 +57,11 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Changes
+
+Run app as instructed in the 'Running the app' section. You can go to [http://localhost:3000/](http://localhost:3000/) to see the randomly-selected quote and refreshing the page will retrieve a new random quote. 
+
+One feature I implemented was retrieving a specific quote by quote ID. After running the app, you can print a specific quote by going to http://localhost:3000/{id} where id is the quote ID. 
+
+Unit and integration tests can be tested using the commands on the 'Test' section. 100% line coverage was achieved for the app service and controller files. 
